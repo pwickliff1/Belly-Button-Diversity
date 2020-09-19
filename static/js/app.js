@@ -5,7 +5,7 @@ Update dynamic graphs and tables
 
 function loadPage(idx){
 	d3.json("samples.json").then (data =>{
-		console.log(data);	
+			
 		// Load ID into select
 		let id = data.names;
 		id.forEach((ID) => {
