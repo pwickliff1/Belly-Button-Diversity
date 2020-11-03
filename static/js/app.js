@@ -93,9 +93,11 @@ function loadPage(idx){
 		// Plot the bubble chart to a div tag with id "bubble"
 		Plotly.newPlot('bubble', data2, layout2);
 		
+		
 		/* 
 		Load and display guage chart
 		*/
+		
 		// Create the data array for our gauge chart plot
 		var trace3 = [
 			{
