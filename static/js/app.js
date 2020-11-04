@@ -1,7 +1,5 @@
 
-/*
-Update dynamic graphs and tables
-*/
+/* Update dynamic graphs and tables */
 
 function loadPage(idx){
 	d3.json("samples.json").then (data =>{
@@ -41,10 +39,7 @@ function loadPage(idx){
 		};
 		
  
-		/* 
-		Load and display bar graph
-		*/
-							
+		/* Load and display bar graph */			
 		// Create your bar chart trace.
 		let trace1 = {
 			x: sample_values,
@@ -66,10 +61,7 @@ function loadPage(idx){
 		Plotly.newPlot("bar", data1, layout1);	 
 	
 		
-		/* 
-		Load and display bubble chart
-		*/
-		
+		/* Load and display bubble chart */
 		// Create your bar chart trace.
 		let trace2 = {
 			x: otu_ids,
@@ -94,10 +86,7 @@ function loadPage(idx){
 		Plotly.newPlot('bubble', data2, layout2);
 		
 		
-		/* 
-		Load and display guage chart
-		*/
-		
+		/* Load and display guage chart */
 		// Create the data array for our gauge chart plot
 		var trace3 = [
 			{
