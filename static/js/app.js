@@ -113,9 +113,7 @@ function loadPage(idx){
 			}
 		];
 		
-		// Create the data array for our bubble chart plot
-		//var data3 = [trace3];
-
+			
 		// Define the gauge plot layout
 		var layout3 = { 
 			width: 5, 
