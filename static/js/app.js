@@ -80,6 +80,9 @@ function loadPage(idx){
 		// Define the bar bubble plot layout
 		var layout2 = {
 			showlegend: false,
+			xaxis: {
+				title: 'OTU ID'
+			},
 		};
 
 		// Plot the bubble chart to a div tag with id "bubble"
